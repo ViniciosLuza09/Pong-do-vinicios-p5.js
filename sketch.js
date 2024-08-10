@@ -83,10 +83,10 @@ function mostraRaquete(x,y) {
 }
 
 function movimentaMinhaRaquete() {
-  if(keyIsDown(87)) {
+  if(keyIsDown(UP_ARROW)) {
     yRaquete -= 10;
   }
-  if(keyIsDown(83)) {
+  if(keyIsDown(DOWN_ARROW)) {
     yRaquete += 10;
   }
 }
